@@ -120,23 +120,26 @@ h1 {
         align-items: flex-start;
         padding-top: 80px;
     }
+}
 
-    section {
-        margin-left: 0;
-        align-items: flex-start;
-        text-align: left;
-        padding-left: 100px;
-        width: 100%;
-    }
+section {
+    margin-left: 0;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 100px;
+    width: 100%;
+}
 
-    img {
-        margin-left: 100px;
-        margin-top: 40px;
-        max-width: 100%;
-        height: auto;
-    }
+img {
+    margin-left: 100px;
+    margin-top: 40px;
+    max-width: 100%;
+    height: auto;
+}
 
-@media screen and (max-width: 830px) {
+
+
+@media screen and (max-width: 499px) {
     .nav {
         display: none;
     }
@@ -159,7 +162,7 @@ h1 {
         margin-top: 100px;
     }
 
-      h1 {
+    h1 {
         width: 310px;
         max-width: 100%;
         font-size: 30px;
@@ -168,7 +171,7 @@ h1 {
         margin: 0 auto;
     }
 
-       .p1 {
+    .p1 {
         width: 304px;
         max-width: 100%;
         height: auto;
@@ -177,7 +180,61 @@ h1 {
         text-align: center;
         margin: 30px auto;
     }
-       .button-2 {
+
+    .button-2 {
+        align-self: center;
+        width: auto;
+        padding: 0;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .nav {
+        display: none;
+    }
+
+    header {
+        position: fixed;
+        top: 20px;
+        right: 0;
+        width: auto;
+        padding: 0 50px 0 0;
+        z-index: 10;
+    }
+
+    header button {
+        position: static;
+        margin: 0;
+    }
+
+    section {
+        margin-top: 100px;
+    }
+
+    h1 {
+        width: 310px;
+        max-width: 100%;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .p1 {
+        width: 304px;
+        max-width: 100%;
+        height: auto;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    .button-2 {
         align-self: center;
         width: auto;
         padding: 0;
@@ -185,4 +242,4 @@ h1 {
         white-space: nowrap;
     }
 }
-}
+
