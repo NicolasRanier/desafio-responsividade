@@ -56,12 +56,15 @@ img {
 
 }
 
-section {
-    display: inline-block;
-    margin-left: 84px;
-    min-height: 100vh;
-    position: relative;
+main {
+    display: flex;
+    align-items: center;
+}
 
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 84px;
 }
 
 
@@ -108,4 +111,28 @@ h1 {
     background-color: transparent;
     border: none;
     position: relative;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1062px) {
+    main {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding-top: 80px;
+    }
+
+    section {
+        margin-left: 0;
+        align-items: flex-start;
+        text-align: left;
+        padding-left: 100px;
+        width: 100%;
+    }
+
+    img {
+        margin-left: 100px;
+        margin-top: 40px;
+        max-width: 100%;
+        height: auto;
+    }
 }
