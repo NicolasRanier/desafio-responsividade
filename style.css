@@ -135,4 +135,54 @@ h1 {
         max-width: 100%;
         height: auto;
     }
+
+@media screen and (max-width: 830px) {
+    .nav {
+        display: none;
+    }
+
+    header {
+        position: fixed;
+        top: 20px;
+        right: 0;
+        width: auto;
+        padding: 0 50px 0 0;
+        z-index: 10;
+    }
+
+    header button {
+        position: static;
+        margin: 0;
+    }
+
+    section {
+        margin-top: 100px;
+    }
+
+      h1 {
+        width: 310px;
+        max-width: 100%;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+       .p1 {
+        width: 304px;
+        max-width: 100%;
+        height: auto;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin: 30px auto;
+    }
+       .button-2 {
+        align-self: center;
+        width: auto;
+        padding: 0;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
 }
