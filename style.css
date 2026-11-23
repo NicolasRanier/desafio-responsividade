@@ -114,7 +114,7 @@ h1 {
     white-space: nowrap;
 }
 
-@media screen and (max-width: 1062px) {
+@media screen and (max-width: 1505px) {
     main {
         flex-direction: column-reverse;
         align-items: flex-start;
