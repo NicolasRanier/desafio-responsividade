@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+header {
+    padding-top: 47px;
+    padding-left: 42px;
+
+}
+
+.nav {
+    color: #17233D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+    margin-right: 23PX;
+
+
+}
+
+button {
+
+    width: 124px;
+    height: 51px;
+    background-color: #6FBF44;
+    color: #FFFF;
+    padding-top: 13px;
+    padding-right: 29px;
+    padding-bottom: 14px;
+    padding-left: 29px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+
+img {
+    margin-left: 121PX;
+    margin-top: 163px;
+    display: inline-block;
+    position: relative;
+
+
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+
+h1 {
+    color: #161A49;
+
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    /* 132.258% */
+    letter-spacing: 0.596px;
+    width: 582px;
+    position: relative;
+}
+
+
+.p1 {
+    color: #4B505A;
+    height: auto;
+    margin: 0;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 183.333% */
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-bottom: 20px;
+    margin-top: 47px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.button-2 {
+
+    color: #6FBF44;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        color: #161A49;
+
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 82px;
+        /* 132.258% */
+        letter-spacing: 0.596px;
+        width: 582px;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    .button-2 {
+        color: #6FBF44;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        background-color: transparent;
+        border: none;
+        position: relative;
+        left: 561px;
+        bottom: 116px;
+
+        img {}
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: auto;
+        width: max-content;
+        display: flex;
+        align-items: center;
+        padding-right: 20PX;
+    }
+
+
+
+    .nav {
+        display: none;
+    }
+
+
+    img {
+        position: absolute;
+        bottom: -250px;
+        right: -150px;
+
+    }
+
+    .button-2 {
+        color: #6FBF44;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+
+        white-space: nowrap;
+        position: absolute;
+        left: 124px;
+        bottom: 330px;
+
+    }
+
+    .p1 {
+        position: absolute;
+        width: 304px;
+        color: #4B505A;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        /* 183.333% */
+        letter-spacing: 0.5px;
+        left: 54px;
+        bottom: 345px;
+    }
+
+    h1 {
+        color: #161A49;
+        width: 278px;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 100% */
+        letter-spacing: 0.596px;
+        position: absolute;
+        left: 12px;
+        bottom: 601px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    h1 {
+        color: #161A49;
+        width: 278px;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        position: absolute;
+        left: 27px;
+        bottom: 601px
+    }
+
+    .p1 {
+        position: absolute;
+        width: 304px;
+        color: #4B505A;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        left: 10px;
+        bottom: 345px;
+    }
+
+    .button-2 {
+        color: #6FBF44;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        white-space: nowrap;
+        position: absolute;
+        left: 81px;
+        bottom: 330px;
+    }
+
+}
